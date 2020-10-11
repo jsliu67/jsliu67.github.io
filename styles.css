@@ -1,1 +1,10 @@
+nav{
+    color: #202020;
+    justify-content: right;
+}
 
+#resume_text{
+    color: white;
+    background-color: royalblue;
+    margin: 100px;
+}
