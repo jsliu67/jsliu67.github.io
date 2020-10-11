@@ -1,6 +1,7 @@
 nav{
+    display:flex;
     color: #202020;
-    justify-content: right;
+    justify-content: flex-end;
 }
 
 #resume_text{
