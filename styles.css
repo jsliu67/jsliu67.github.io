@@ -1,12 +1,28 @@
 .link{
+    width: 60%;
     display:flex;
     color: #202020;
-    justify-content: flex-end;
-    flex-direction: row;
-}
+    align-items: end;
 
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.nav-link{
+    text-decoration: none;
+    color: #101010;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+}
 #resume_text{
     color: white;
+    : 1rem;
+    padding: 2rem;
     background-color: royalblue;
-    margin: 100px;
+
 }
