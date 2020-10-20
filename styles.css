@@ -1,16 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
 .link{
-    width: 60%;
+    width: 50%;
     display:flex;
     color: #202020;
     align-items: end;
-
     flex-direction: row;
     justify-content: space-between;
-    
+    margin-top: 2rem;
+    margin-right: 2rem;
 }
 .nav-link{
+    font-size: 1.5rem;
     text-decoration: none;
     color: #101010;
+}
+.nav-name{
+    font-size: 4rem;
+    color: royalblue;
+    margin-left: 2rem;
 }
 nav{
     display: flex;
@@ -21,8 +37,29 @@ ul{
 }
 #resume_text{
     color: white;
-    : 1rem;
-    padding: 2rem;
-    background-color: royalblue;
+    font-style:normal;
+    padding: 1rem;
+    background-color: rgb(86, 125, 243);
 
+}
+
+.headers{
+    margin-left: 8rem;
+    font-size: 2.5rem;
+    color: rgb(50, 92, 218);
+}
+p{
+    margin-left: 12rem;
+    margin-right: 12rem;
+    font-size: 1.5rem;
+}
+#aboutme_text{
+
+}
+
+nav a:hover:not(.active){
+    color: salmon;
+}
+nav .active{
+    background-color: brown;
 }
