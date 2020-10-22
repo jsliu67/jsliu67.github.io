@@ -3,7 +3,17 @@
 *::after {
   box-sizing: border-box;
 }
-
+.hero{
+    /* display:flex;
+    flex-direction: row;
+    justify-content: space-between; */
+}
+#hero_box{
+    width: 100%;
+    height: 25rem;
+    background-color: royalblue;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 83%);
+}
 html {
     font-family: 'Raleway', sans-serif;
     scroll-behavior: smooth;
@@ -18,6 +28,19 @@ html {
     margin-top: 2rem;
     margin-right: 2rem;
 }
+#hero_img{
+    position: absolute;
+    width: 24rem;
+    height: 17rem;
+    left: 10rem;
+    top: 10rem;
+}
+#hero_text{
+    color: white;
+    font-size: 4rem;
+    margin-left: 50%;
+    padding-top: 5rem;
+}
 .nav-link{
     font-size: 1.5rem;
     text-decoration: none;
@@ -30,6 +53,7 @@ html {
 }
 nav{
     display: flex;
+    margin: 2rem;
     justify-content: space-between;
 }
 ul{
@@ -39,6 +63,7 @@ ul{
     color: white;
     font-style:normal;
     padding: 1rem;
+    margin: 0rem;
     background-color: rgb(86, 125, 243);
 
 }
@@ -53,12 +78,9 @@ p{
     margin-right: 12rem;
     font-size: 1.5rem;
 }
-#aboutme_text{
-
-}
 
 nav a:hover:not(.active){
-    color: salmon;
+    color: skyblue;
 }
 nav .active{
     background-color: brown;
