@@ -19,28 +19,26 @@ dl,
 dd {
   margin: 0;
 }
-
-html{
-    font-size:62.5%;
-}
-.hero{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around; 
-    padding-top: 3rem;
-}
-#hero_box{
-    width: auto;
-    height: 35rem;
-    background-color: royalblue;
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 83%);
+/* body{
+    margin-left: 8rem;
+    margin-right: 8rem;
+} */
+h2{
+    margin: 3rem;
 }
 html {
     font-family: 'Raleway', sans-serif;
     scroll-behavior: smooth;
 }
+html{
+    font-size:62.5%;
+}
+ul{
+    list-style-type: none;
+}
+
 .link{
-    width: 50%;
+    width: 30%;
     display:flex;
     color: #202020;
     align-items: end;
@@ -49,63 +47,89 @@ html {
     margin-top: 2rem;
     margin-right: 2rem;
 }
+.nav-link{
+    height: 0rem;
+    font-size: 2.4rem;
+    line-height: 2rem;
+    text-decoration: none;
+    color: #101010;
+}
+.nav-name{
+    color: royalblue;
+    margin-left: 2rem;
+}
+nav{
+    line-height: 4rem;
+    font-size: 5rem;
+    display: flex;
+    margin: 1rem;
+    justify-content: space-between;
+    /* align-items:baseline; */
+}
+#resume_text{
+    color: white;
+    font-style:normal;
+    border: 0rem;
+    padding: 0rem;
+    background-color: rgb(86, 125, 243);
+
+}
+.hero{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    padding-top: 3rem;
+}
+#hero_box{
+    width: auto;
+    height: 55rem;
+    background-color: royalblue;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 83%);
+}
 #hero_img{
     /* position: absolute; */
-    width: 24rem;
-    height: 17rem;
+    width: 30rem;
+    height: 20rem;
     /* left: 10rem;
     top: 15rem; */
 }
 #hero_text{
     color: white;
-    font-size: 4rem;
-    /* margin-left: 50%;
-    padding-top: 5rem; */
+    font-size: 5rem;
+    padding-top: 5rem; 
 }
-.nav-link{
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: #101010;
-}
-.nav-name{
-    font-size: 4rem;
-    color: royalblue;
-    margin-left: 2rem;
-}
-nav{
-    display: flex;
-    margin: 1rem;
-    justify-content: space-between;
-    align-items:baseline;
-}
-ul{
-    list-style-type: none;
-}
-#resume_text{
-    color: white;
-    font-style:normal;
-    padding: 1rem;
-    margin: 0rem;
-    background-color: rgb(86, 125, 243);
-
-}
-
 .headers{
-    margin-left: 8rem;
-    font-size: 2.5rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    font-size: 4rem;
     color: rgb(50, 92, 218);
 }
 p{
-    margin-left: 12rem;
-    margin-right: 12rem;
-    font-size: 1.5rem;
+    margin-left: 24rem;
+    margin-right: 24rem;
+    font-size: 3rem;
 }
-
+.project1{
+    display:flex;
+    flex-direction: row;
+}
+#p1name{
+}
+.project1left{
+    
+    width: 50%;
+}
+#projectLine{
+    width:40%;
+    text-align: left;
+    margin: 3rem;
+    margin-left:24rem;
+}
+#p1link{
+    font-size: 3rem;
+}
 nav a:hover:not(.active){
     color: skyblue;
-}
-nav .active{
-    background-color: brown;
 }
 
 @media only screen and (max-width: 1200px) {
