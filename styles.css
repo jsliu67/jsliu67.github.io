@@ -102,7 +102,7 @@ a:hover{
 #hero_text{
     width: 40%;
     color: white;
-    font-size: 4rem;
+    font-size: 3.5rem;
     /* padding-top: 3rem;  */
 }
 .headers{
@@ -112,15 +112,19 @@ a:hover{
     color: rgb(50, 92, 218);
 }
 p{
+    font-size: 3rem;
+}
+#aboutme_text{
     margin-left: 24rem;
     margin-right: 24rem;
-    font-size: 3rem;
 }
 .project1{
     display:flex;
     flex-direction: row;
 }
 #p1name{
+    margin-left: 24rem;
+    margin-right: 24rem;
 }
 .project1left{
     
@@ -129,6 +133,10 @@ p{
 #p1picture{
     height:95%;
     width:auto;
+}
+#p1paragraph{
+    margin-left: 24rem;
+    margin-right: 24rem;
 }
 #projectLine{
     width:40%;
@@ -139,40 +147,61 @@ p{
 #p1link{
     padding-top: 18rem;
     font-size: 3rem;
+    margin-left: 24rem;
+    margin-right: 24rem;
 }
 
 .experience_list{
     display: flex;
+    padding: 0;
+    flex-basis: 0;
+    justify-content: space-around;
     flex-direction: row;
 }
 .exp1{
     display: flex;
     font-size: 1rem;
     flex-direction: column;
-    width: 100%;
+    align-items: center;
+    width: 50%;
 }
 .exp2{
     display: flex;
     font-size: 1rem;
     flex-direction: column;
+    align-items: center;
+    width: 50%;
 }
 .exp3{
     display: flex;
     font-size: 1rem;
     flex-direction: column;
+    align-items: center;
+    width: 50%;
 }
 #exp1text{
     font-size:2rem;
+    width: 70%;
 }
 #exp2text{
     font-size:2rem;
+    width: 70%;
 }
 #exp3text{
     font-size:2rem;
+    width: 70%;
 }
 #exp1pic{
     width:30rem;
-    height:auto;
+    height:30rem;
+}
+#exp2pic{
+    width:30rem;
+    height:30rem;
+}
+#exp3pic{
+    width:30rem;
+    height:30rem;
 }
 
 @media only screen and (max-width: 1200px) {
