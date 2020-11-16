@@ -5,14 +5,13 @@
     <meta charset="utf-8">
 
     <title>Justin Liu</title>
-    <meta name="Justin Liu" content="Justin Liu">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
-    <script src="scripts.js"></script>
 </head>
 
 <body>
-    <nav class="navbar">
+    <nav class="topnav">
         <a class="nav-name" href="./index.html">Justin Liu</a>
         <ul class="link">
             <li><a class="nav-link" href="#about">About</a></li>
@@ -22,7 +21,9 @@
             <li><a class="nav-link" id="resume_text" href="./resume.html">Resume</a></li>
         </ul>
         <!-- for mobile version only -->
-        <button class="hamburger">hamburger</button>
+        <a href="javascript:void(0);"  onclick="myFunction()">
+            <i class="hamburger">Hamburger</i>
+        </a>
     </nav>
 
     <div class="hero" id="hero_box">
@@ -67,5 +68,8 @@
     <!-- <h2 class="headers" id="contact">Contact Me</h2>
         <p id="contactinfo">Email: jsliu@umich.edu</p> -->
     <p id="contactinfo">Email me at jsliu@umich.edu</p>
+    <script src="scripts.js"></script>
 </body>
+
+
 </html>
