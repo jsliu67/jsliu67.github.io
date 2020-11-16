@@ -39,8 +39,7 @@ ul{
 }
 .hamburger {
     display: none;
-    background-color: #555;
-    padding: 20px;
+    padding: 1rem;
 }
 .link{
     /* width: 40%; */
@@ -74,7 +73,6 @@ nav{
     margin-bottom: 1.5rem;
 }
 #resume_text{
-    
     font-style: normal;
     height: auto;
     line-height: 2rem;
@@ -82,7 +80,7 @@ nav{
     background-color: rgb(86, 125, 243);
 }
 a:hover{
-    color: skyblue;
+    color: mediumturquoise;
 }
 .hero{
     display:flex;
@@ -451,56 +449,49 @@ p{
 }
 
 @media only screen and (max-width: 900px) {
-    .nav-link{display:none}
-    nav{}
-    .link{display:none}
     .hamburger{
-        display:block;
-    }
-    /* Style the navigation menu */
-    .topnav {
-        overflow: hidden;
-        background-color: #333;
-        position: relative;
-    }
-    
-    /* Hide the links inside the navigation menu (except for logo/home) */
-    .topnav .link {
-        display: none;
-    }
-    
-    /* Style navigation menu links */
-    .topnav a {
+        display: block;
         color: white;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
+        padding-bottom: 0.5rem;
+        font-size: 2rem;
+        background-color: royalblue;
+        border-color: powderblue;
+
     }
-    
-    /* Style the hamburger menu */
-    .topnav a.icon {
-        background: black;
-        display: block;
+    .navbar {
+        height: 60px;
+    }
+    #resume_text{
+        background-color: transparent;
+    }
+    .navbar ul {
+        z-index: 1;
         position: absolute;
-        right: 0;
-        top: 0;
+        width: 100%;
+        height: 27rem; 
+        left: 0;
+        top: 8.5rem;
+        flex-direction: column;
+        align-items: center;
+        /* border-top: 1px solid #444; */
+        background-color: powderblue;
+        max-height: 0;
+        overflow: hidden;
+        transition: .3s;
     }
-    
-    /* Add a grey background color on mouse-over */
-    .topnav a:hover {
-        background-color: #ddd;
-        color: black;
+    .navbar ul li {
+        width: 100%;
+        text-align: center;
     }
-    
-    /* Style the active link (or home/logo) */
-    .active {
-        background-color: #4CAF50;
-        color: white;
+    .navbar ul li a {
+        padding: 5rem;
+    }
+    .navbar ul.open {
+        max-height: 100vh;
+        overflow: visible;
     }
     .hero{
         display:flex;
-        display:none;
         flex-direction: column;
         align-items: center;
         padding-bottom: 10rem;
