@@ -60,7 +60,7 @@ ul{
     color: #101010;
 }
 .nav-name{
-    color: royalblue;
+    color: rgb(92, 192, 255);
     margin-left: 2rem;
     text-decoration: none;
 }
@@ -77,10 +77,10 @@ nav{
     height: auto;
     line-height: 2rem;
     padding: 0.7rem;
-    background-color: rgb(86, 125, 243);
+    background-color: rgb(92, 192, 255);
 }
 a:hover{
-    color: mediumturquoise;
+    color: mediumaquamarine;
 }
 .hero{
     display:flex;
@@ -92,7 +92,7 @@ a:hover{
 #hero_box{
     width: auto;
     height: 55rem;
-    background-color: royalblue;
+    background-color:mediumturquoise;
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 83%);
 }
 #hero_img{
@@ -104,7 +104,7 @@ a:hover{
 }
 #hero_text{
     width: 40%;
-    color: white;
+    color: azure;
     font-size: 3.5rem;
     /* padding-top: 3rem;  */
 }
@@ -112,7 +112,7 @@ a:hover{
     margin-left: 15rem;
     margin-right: 15rem;
     font-size: 4rem;
-    color: rgb(50, 92, 218);
+    color:rgb(92, 192, 255);
 }
 p{
     font-size: 3rem;
@@ -223,19 +223,10 @@ p{
 @media only screen and (max-width: 1600px) {
     .link{
         width: 35%;
-        display:flex;
-        color: #202020;
-        align-items: end;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top: 2rem;
-        margin-right: 2rem;
     }
     #hero_box{
         width: auto;
         height: 47rem;
-        background-color: royalblue;
-        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 83%);
     }
     #hero_img{
         /* position: absolute; */
@@ -246,9 +237,7 @@ p{
     }
     #hero_text{
         width: 40%;
-        color: white;
         font-size: 3rem;
-        /* padding-top: 3rem;  */
     }
     #p1picture{
         height:53rem;
@@ -257,8 +246,6 @@ p{
     .headers{
         margin-left: 10rem;
         margin-right: 10rem;
-        font-size: 4rem;
-        color: rgb(50, 92, 218);
     }
     #aboutme_text{
         margin-left: 19rem;
@@ -273,14 +260,9 @@ p{
         margin-right: 19rem;
     }
     #projectLine{
-        width:40%;
-        text-align: left;
-        margin: 3rem;
         margin-left: 19rem;
     }
     #p1link{
-        padding-top: 15rem;
-        font-size: 3rem;
         margin-left: 19rem;
         margin-right: 19rem;
     }
@@ -289,19 +271,10 @@ p{
 @media only screen and (max-width: 1400px) {
     .link{
         width: 40%;
-        display:flex;
-        color: #202020;
-        align-items: end;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top: 2rem;
-        margin-right: 2rem;
     }
     #hero_box{
         width: auto;
         height: 39rem;
-        background-color: royalblue;
-        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 83%);
     }
     #hero_img{
         /* position: absolute; */
@@ -323,8 +296,6 @@ p{
     .headers{
         margin-left: 6rem;
         margin-right: 6rem;
-        font-size: 4rem;
-        color: rgb(50, 92, 218);
     }
     #aboutme_text{
         margin-left: 15rem;
@@ -339,14 +310,9 @@ p{
         margin-right: 15rem;
     }
     #projectLine{
-        width:40%;
-        text-align: left;
-        margin: 3rem;
         margin-left: 15rem;
     }
     #p1link{
-        padding-top: 13rem;
-        font-size: 3rem;
         margin-left: 15rem;
         margin-right: 15rem;
     }
@@ -355,13 +321,6 @@ p{
 @media only screen and (max-width: 1200px) {
     .link{
         width: 48%;
-        display:flex;
-        color: #202020;
-        align-items: end;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top: 2rem;
-        margin-right: 2rem;
     }
     #p1picture{
         height:45rem;
@@ -370,8 +329,6 @@ p{
     .headers{
         margin-left: 3rem;
         margin-right: 3rem;
-        font-size: 4rem;
-        color: rgb(50, 92, 218);
     }
     #aboutme_text{
         margin-left: 10rem;
@@ -386,15 +343,10 @@ p{
         margin-right: 10rem;
     }
     #projectLine{
-        width:40%;
-        text-align: left;
-        margin: 3rem;
         margin-left: 10rem;
 
     }
     #p1link{
-        padding-top: 11rem;
-        font-size: 3rem;
         margin-left: 10rem;
         margin-right: 10rem;
     }
@@ -403,13 +355,6 @@ p{
 @media only screen and (max-width: 1000px) {
     .link{
         width: 51%;
-        display:flex;
-        color: #202020;
-        align-items: end;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top: 2rem;
-        margin-right: 2rem;
     }
     #p1picture{
         height:40rem;
@@ -418,8 +363,6 @@ p{
     .headers{
         margin-left: 3rem;
         margin-right: 3rem;
-        font-size: 4rem;
-        color: rgb(50, 92, 218);
     }
     #aboutme_text{
         margin-left: 10rem;
@@ -434,15 +377,9 @@ p{
         margin-right: 7rem;
     }
     #projectLine{
-        width:40%;
-        text-align: left;
-        margin: 3rem;
         margin-left: 10rem;
-
     }
     #p1link{
-        padding-top: 9rem;
-        font-size: 3rem;
         margin-left: 10rem;
         margin-right: 7rem;
     }
@@ -454,9 +391,8 @@ p{
         color: white;
         padding-bottom: 0.5rem;
         font-size: 2rem;
-        background-color: royalblue;
-        border-color: powderblue;
-
+        background-color: rgb(92, 192, 255);
+        border-color: mediumturquoise;
     }
     .navbar {
         height: 60px;
@@ -474,7 +410,7 @@ p{
         flex-direction: column;
         align-items: center;
         /* border-top: 1px solid #444; */
-        background-color: powderblue;
+        background-color: rgb(92, 192, 255);
         max-height: 0;
         overflow: hidden;
         transition: .3s;
@@ -499,7 +435,7 @@ p{
     #hero_box{
         width: auto;
         height: 100rem;
-        background-color: royalblue;
+        background-color: mediumturquoise;
         clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
     }
     #hero_img{
@@ -511,7 +447,6 @@ p{
     }
     #hero_text{
         width: 80%;
-        color: white;
         font-size: 3.5rem;
         /* padding-top: 3rem;  */
     }
