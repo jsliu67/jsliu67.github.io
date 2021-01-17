@@ -30,10 +30,22 @@ html {
     font-family: 'Raleway', sans-serif;
     scroll-behavior: smooth;
 }
-html{
-    font-size:62.5%;
-    text-decoration: none;
+html {
+    font-size: 62.5%; }
+  @media (min-width: 112.5em) {
+    html {
+    font-size: 75%; } }
+  @media (max-width: 75em) {
+    html {
+    font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+    font-size: 50%; } }
+  @media (max-width: 37.5em) {
+    html {
+    font-size: 40%; } 
 }
+
 ul{
     list-style-type: none;
 }
@@ -44,6 +56,7 @@ ul{
 .link{
     /* width: 40%; */
     width: 30%;
+    min-width: 50rem;
     display:flex;
     color: #202020;
     align-items: end;
@@ -97,8 +110,9 @@ a:hover{
 }
 #hero_img{
     /* position: absolute; */
-    width: 40rem;
-    height: 28rem;
+    margin-left: 10rem;
+    width: 35rem;
+    clip-path: ellipse(38% 47% at 50% 50%);
     /* left: 10rem;
     top: 15rem; */
 }
@@ -109,8 +123,8 @@ a:hover{
     /* padding-top: 3rem;  */
 }
 .headers{
-    margin-left: 15rem;
-    margin-right: 15rem;
+    margin-left: 8%;
+    margin-right: 8%;
     font-size: 4rem;
     color:rgb(92, 192, 255);
 }
@@ -118,39 +132,37 @@ p{
     font-size: 3rem;
 }
 #aboutme_text{
-    margin-left: 24rem;
-    margin-right: 24rem;
+    margin-left: 13%;
+    margin-right: 13%;
 }
 .project1{
     display:flex;
     flex-direction: row;
-}
-#p1name{
-    margin-left: 24rem;
-    margin-right: 24rem;
+    justify-content: space-between;
+    margin-right: 20%;
+    margin-left: 13%;
+
 }
 .project1left{
-    width: 50%;
+    width: 45%;
 }
 #p1picture{
-    height:60rem;
-    width:auto;
+    width: 85%;
 }
 #p1paragraph{
-    margin-left: 24rem;
-    margin-right: 24rem;
+
 }
 #projectLine{
     width:40%;
     text-align: left;
     margin: 3rem;
-    margin-left:24rem;
+    margin-left: 0;
+
 }
 #p1link{
-    padding-top: 18rem;
+    padding-top: 8rem;
     font-size: 3rem;
-    margin-left: 24rem;
-    margin-right: 24rem;
+
 }
 
 .experience_list{
@@ -209,9 +221,6 @@ p{
     width:30rem;
     height:20rem;
 }
-/* #contactinfo{
-    margin-left: 24rem;
-} */
 #contactinfo{
     margin-top: 6rem;
     margin-bottom: 2rem;
@@ -220,7 +229,7 @@ p{
     font-size: 1.5rem;
     color: rgb(100, 100, 100);
 }
-@media only screen and (max-width: 1600px) {
+/* @media only screen and (max-width: 1600px) {
     .link{
         width: 35%;
     }
@@ -229,11 +238,10 @@ p{
         height: 47rem;
     }
     #hero_img{
-        /* position: absolute; */
         width: 35rem;
         height: 25rem;
-        /* left: 10rem;
-        top: 15rem; */
+        left: 10rem;
+        top: 15rem;
     }
     #hero_text{
         width: 40%;
@@ -266,124 +274,7 @@ p{
         margin-left: 19rem;
         margin-right: 19rem;
     }
-}
-
-@media only screen and (max-width: 1400px) {
-    .link{
-        width: 40%;
-    }
-    #hero_box{
-        width: auto;
-        height: 39rem;
-    }
-    #hero_img{
-        /* position: absolute; */
-        width: 30rem;
-        height: 22rem;
-        /* left: 10rem;
-        top: 15rem; */
-    }
-    #hero_text{
-        width: 40%;
-        color: white;
-        font-size: 2.5rem;
-        /* padding-top: 3rem;  */
-    }
-    #p1picture{
-        height:45rem;
-        width:auto;
-    }
-    .headers{
-        margin-left: 6rem;
-        margin-right: 6rem;
-    }
-    #aboutme_text{
-        margin-left: 15rem;
-        margin-right: 15rem;
-    }
-    #p1name{
-        margin-left: 15rem;
-        margin-right: 15rem;
-    }
-    #p1paragraph{
-        margin-left: 15rem;
-        margin-right: 15rem;
-    }
-    #projectLine{
-        margin-left: 15rem;
-    }
-    #p1link{
-        margin-left: 15rem;
-        margin-right: 15rem;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    .link{
-        width: 48%;
-    }
-    #p1picture{
-        height:45rem;
-        width:auto;
-    }
-    .headers{
-        margin-left: 3rem;
-        margin-right: 3rem;
-    }
-    #aboutme_text{
-        margin-left: 10rem;
-        margin-right: 10rem;
-    }
-    #p1name{
-        margin-left: 10rem;
-        margin-right: 10rem;
-    }
-    #p1paragraph{
-        margin-left: 10rem;
-        margin-right: 10rem;
-    }
-    #projectLine{
-        margin-left: 10rem;
-
-    }
-    #p1link{
-        margin-left: 10rem;
-        margin-right: 10rem;
-    }
-}
-
-@media only screen and (max-width: 1000px) {
-    .link{
-        width: 51%;
-    }
-    #p1picture{
-        height:40rem;
-        width:auto;
-    }
-    .headers{
-        margin-left: 3rem;
-        margin-right: 3rem;
-    }
-    #aboutme_text{
-        margin-left: 10rem;
-        margin-right: 7rem;
-    }
-    #p1name{
-        margin-left: 10rem;
-        margin-right: 7rem;
-    }
-    #p1paragraph{
-        margin-left: 10rem;
-        margin-right: 7rem;
-    }
-    #projectLine{
-        margin-left: 10rem;
-    }
-    #p1link{
-        margin-left: 10rem;
-        margin-right: 7rem;
-    }
-}
+} */
 
 @media only screen and (max-width: 900px) {
     .hamburger{
@@ -441,12 +332,14 @@ p{
     #hero_img{
         /* position: absolute; */
         width: 50rem;
-        height: 39rem;
+        margin: 0;
+        padding: 0;
         /* left: 10rem;
         top: 15rem; */
     }
     #hero_text{
         width: 80%;
+        text-align:center;
         font-size: 3.5rem;
         /* padding-top: 3rem;  */
     }
